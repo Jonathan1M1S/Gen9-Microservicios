@@ -16,6 +16,12 @@
 
 	<packaging>pom</packaging>
 
+	<modules>
+		<module>Gen9-Infraestructura</module>
+		<module>Gen9-Negocio</module>
+		<!-- <module>Gen9-Infraestructura</module> -->
+	</modules>
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
