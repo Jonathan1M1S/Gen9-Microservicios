@@ -7,22 +7,15 @@
 		<artifactId>Gen9-Negocio</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<groupId>com.morales.choferes</groupId>
-	<artifactId>Gen9-Choferes</artifactId>
+	<groupId>com.morales.camiones</groupId>
+	<artifactId>Gen9-Camiones</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Gen9-Choferes</name>
+	<name>Gen9-Camiones</name>
 	<description>Demo project for Spring Boot</description>
-	
 	<properties>
-		
+
 	</properties>
 	<dependencies>
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator</artifactId>
-		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -53,7 +46,6 @@
 			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
 			<version>2.6.0</version>
 		</dependency>
-
 	</dependencies>
 
 	<build>
